@@ -21,12 +21,12 @@ Now you successfully installed mine superior version of wc
 
 Simply type wc -h or wc --help for detailed help page
 
-##What is it for ?
+## What is it for ?
 
 It is for people who are bored with standard implementation of wc program,
 if you like poorly tested implementations ( i mean beading edge technology) --- it's perfect for you
 
-##How can I help?
+## How can I help?
 
 well, if you want to help ... just do it and don't waste my time! 
 
