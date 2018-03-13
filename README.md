@@ -17,9 +17,11 @@ If deleting default wc program won't help, just run
 
 Now you successfully installed mine superior version of wc
 
+and now for serious ... you just need to call wc.py from bash ( of course you can put it in directory that is in your PATH, or create simlink to it, but it is not compulsory to run it)
+
 ## How to use it?
 
-Simply type wc -h or wc --help for detailed help page
+Simply call the program with flag -h or --help for detailed help page
 
 ## Is it for me?
 
