@@ -24,7 +24,7 @@ Simply type wc -h or wc --help for detailed help page
 ## What is it for ?
 
 It is for people who are bored with standard implementation of wc program,
-if you like poorly tested implementations ( i mean beading edge technology) --- it's perfect for you
+if you like poorly tested implementations ( i mean bleeding edge technology) --- it's perfect for you
 
 ## How can I help?
 
