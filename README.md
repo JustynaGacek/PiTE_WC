@@ -47,4 +47,3 @@ Proszę zastanów się, dlaczego domyślne zachowanie wypisuje wszystkie wyliczo
 Zwróć uwagę na to, dlaczego podczas podania pliku, w którym znajduje się jedna linia, parametr maksymalnej długości linii jest o jeden znak mniejszy od parametru ilości znaków.
 Miło by było, aby podczas wypisywania, zobaczyć oprócz wartości również tekst, dotyczący tego, co jest wypisywane, np.: lines: 23.
 
-Za wszelkie złe interpretacje z mojej strony przepraszam :)
