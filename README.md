@@ -33,3 +33,18 @@ if you like poorly tested implementations ( i mean bleeding edge technology) ---
 well, if you want to help ... just do it and don't waste my time! 
 
 Be aware that I probably wont use your code, because mine is far superior  
+
+## Code review
+
+Poprawnie napisane README, w dokładny sposób opisujące proces uruchomienia programu.
+
+Kod napisany w jasny sposób, ze znaczącymi nazwami zmiennych, co umożliwia szybkie zrozumienie, nawet bez dokumentacji.
+Dobry pomysł na użycie narzędzia agrparse, które w jasny sposób precyzuje zachowania przypisane odpowiednim flagom oraz skraca kod. Dobrym sposobem, jest również zastrzeżenie, że podany na wejściu plik może być tylko odczytywany.
+
+Co do optymalizacji, program sczytuje po 1024 bajty z pliku tekstowego co jest bardzo rozsądnym działaniem, jednak wszystkie dane zapisuje do Stinga data, czy to jest konieczne? - rozumiem, że dzieje się to po to, aby nie sczytywać danych dwa razy z pliku do obliczenia ilości bajtów oraz pozostałych parametrów.
+
+Proszę zastanów się, dlaczego domyślne zachowanie wypisuje wszystkie wyliczone wartości oprócz ilości bajtów.
+Zwróć uwagę na to, dlaczego podczas podania pliku, w którym znajduje się jedna linia, parametr maksymalnej długości linii jest o jeden znak mniejszy od parametru ilości znaków.
+Miło by było, aby podczas wypisywania, zobaczyć oprócz wartości również tekst, dotyczący tego, co jest wypisywane, np.: lines: 23.
+
+Za wszelkie złe interpretacje z mojej strony przepraszam :)
